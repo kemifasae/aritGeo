@@ -1,0 +1,28 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "Tells if an input array is in arithmetic or geometric progression",
+  "main": "aritGeo.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha test/aritGeotest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemifasae/aritGeo.git"
+  },
+  "author": "Oluwakemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemifasae/aritGeo/issues"
+  },
+  "homepage": "https://github.com/kemifasae/aritGeo#readme"
+}
