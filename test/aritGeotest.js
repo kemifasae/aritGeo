@@ -37,11 +37,11 @@ describe("Progression Check", function(){
         expect (myapp.aritGeo('andela')).to.equal("Not an Array");
     });
    
-    it("should tell if it's not an array", function(){
+    it("should tell if it's not in geometric or arithmetic progression", function(){
         expect (myapp.aritGeo([0,2,4,8,16])).to.equal(-1);
     });
     
-    it("should tell if it's not an array", function(){
+    it("should tell if it's not in geometric or arithmetic progression", function(){
         expect (myapp.aritGeo([0,2,4,8,16,30,12])).to.equal(-1);
     });
 

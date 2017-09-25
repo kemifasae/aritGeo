@@ -7,3 +7,4 @@ If array is neither arithmetic nor geometric in progression, it returns -1
 If array is empty, it returns 0
 If input is not an array, it returns a string stating that
 If input contains any datatype apart from number, it returns a string stating it should contain numbers.
+
