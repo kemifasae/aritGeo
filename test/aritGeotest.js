@@ -40,6 +40,9 @@ describe("Progression Check", function(){
     it("should tell if it's not an array", function(){
         expect (myapp.aritGeo([0,2,4,8,16])).to.equal(-1);
     });
-
+    
+    it("should tell if it's not an array", function(){
+        expect (myapp.aritGeo([0,2,4,8,16,30,12])).to.equal(-1);
+    });
 
 });
